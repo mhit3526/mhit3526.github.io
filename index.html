@@ -1,201 +1,509 @@
-<!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-<html lang="jp">
+<!DOCTYPE html>
+<html lang="ja">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A portfolio template that uses Material Design Lite.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>MDL-Static Website</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.0.6/material.grey-pink.min.css" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Personal Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Personal
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/personal-free-history-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-            <div class="mdl-layout__header-row">
-                <span class="mdl-layout__title">Simple Portfolio Layout</span>
-            </div>
-            <div class="mdl-layout__header-row portfolio-navigation-row">
-                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                    <a class="mdl-navigation__link" href="blog.html">Blog</a>
-                    <a class="mdl-navigation__link" href="about.html">About</a>
-                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
-                </nav>
-            </div>
-        </header>
-                <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <span class="mdl-layout__title">Simple Portfolio Layout</span>
-            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link" href="#">Portfolio</a>
-                <a class="mdl-navigation__link" href="#">Blog</a>
-                <a class="mdl-navigation__link" href="#">About</a>
-                <a class="mdl-navigation__link" href="#">Contact</a>
-            </nav>
-        </div>
-        <main class="mdl-layout__content">
-            <div class="mdl-grid portfolio-max-width">
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" ./images/example-work01.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Blog template</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" ./images/example-work07.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Sunt nulla</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" ./images/example-work02.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Android.com website</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" ./images/example-work03.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Dashboard template</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" ./images/example-work04.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Text-heavy website</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" ./images/example-work08.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Ex officia laborum</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" ./images/example-work05.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Stand-alone article</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" ./images/example-work06.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">MDL website</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" ./images/example-work09.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Consequat ut quis</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <footer class="mdl-mini-footer">
-                <div class="mdl-mini-footer__left-section">
-                    <div class="mdl-logo">Simple portfolio website</div>
-                </div>
-                <div class="mdl-mini-footer__right-section">
-                    <ul class="mdl-mini-footer__link-list">
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Privacy & Terms</a></li>
-                    </ul>
-                </div>
-            </footer>
-        </main>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">Hiroaki Miki</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <h2><span>クラウドエンジニア。AWSのプロフェッショナル。2021 AWS TOP Engineer。</span></h2>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">ホーム</a></li>
+          <li><a class="nav-link" href="#about">自己紹介</a></li>
+          <li><a class="nav-link" href="#history">経歴</a></li>
+          <li><a class="nav-link" href="#awards">資格、受賞歴</a></li>
+          <li><a class="nav-link" href="#contact">連絡先</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <a href="https://twitter.com/mhiqo_p" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="wantedly"><i class="bi bi-wantedly"></i></a>
+      </div>
+
     </div>
-    <script src="https://code.getmdl.io/1.0.6/material.min.js"></script>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>自己紹介</h2>
+        <p>三木 宏昭</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/me.jpeg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>クラウドインフラのプロフェッショナル</h3>
+          <p class="fst-italic">
+            ITインフラ歴は8年以上。新卒から一貫してITインフラに携わっています。
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>居住地:</strong> <span>埼玉県さいたま市</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>職業:</strong> <span>クラウドエンジニア / ITコンサルタント</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>現職:</strong> <span>株式会社ジージェン</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>最終学歴:</strong> <span>明治大学商学部アカウンティングコース</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mhit3526@gmail.com</span></li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            クラウドエンジニア、ITインフラエンジニア、ITコンサルタント。</br>
+            2015年に明治大学卒業後、エイチアールワン株式会社に新卒入社。</br>株式会社サーバーワークス、ウェルスナビ株式会社を経て、現在に至る。</br>
+            SAP on AWSを除くすべてのAWS認定を取得。</br>
+            AWS JAPN社から2021 AWS APN Top Engineer および 2021 AWS APN ALL Certifications Engineer に選出。</br>
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Counts ======= -->
+    <div class="counts container">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+            <p>個人事業 顧客数</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+            <p>個人事業 プロジェクト数</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-award"></i>
+            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+            <p>資格数</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- End Counts -->
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+      <div class="section-title">
+        <h2>スキル</h2>
+      </div>
+
+      <div class="row skills-content">
+        <div class="col-lg-6">
+          <div class="progress">
+            <span class="skill">AWS <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Azure <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">アーキテクチャ設計 <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Networking <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>  
+            <div class="progress">
+              <span class="skill">Windows <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          <div class="progress">
+            <span class="skill">Terraform <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>          
+        </div>
+        <div class="col-lg-6">
+          <div class="progress">
+            <span class="skill">GCP <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">要件定義 <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">運用設計 <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Kubernetes <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Linux <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">CloudFormation <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>得意な事</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+            <h3>ドキュメント作成・執筆</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-store-line" style="color: #ffbb2c;"></i>
+            <h3>運用改善</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+            <h3>自動化・効率化</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+            <h3>運用・監視</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+            <h3>セキュリティ向上</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+            <h3>クラウドネイティブ</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+            <h3>CICD</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-anchor-line" style="color: #b2904f;"></i>
+            <h3>コンテナ</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+
+  </section><!-- End About Section -->
+
+  <!-- ======= history Section ======= -->
+  <section id="history" class="history">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>経歴</h2>
+        <p>職務経歴</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="history-title">幼少期</h3>
+          <div class="history-item pb-0">
+            <h4>三木 宏昭</h4>
+            <p><em>埼玉県育ち。TVゲームと読書に夢中。その後PCゲーマーにシフトしていく。</br>メイプルストーリー、X-BEAT、FFXIVに青春を注ぐ。吉Pには会えなかった…。</em></p>
+          </div>
+          <h3 class="history-title">大学</h3>
+          <div class="history-item">
+            <h4>明治大学</h4>
+            <h5>2012 - 2015</h5>
+            <p><em>商学部アカウンティングコース</em></p>
+            <p>数学好きだった事から、公認会計士を目指す！と志して明治大学商学部へ入学。</br>経営・経済学のイロハを学びつつ、簿記や税務についても学ぶ。専攻は管理会計論。</p>
+          </div>
+          <h3 class="history-title">社会人</h3>
+          <div class="history-item">
+            <h4>エイチアールワン株式会社</h4>
+            <h5>2015/04 - 2019/03</h5>
+            <p><em>システム基盤保守グループ/エンジニア</em></p>
+            <p>新卒入社。システム部門ITインフラ運用保守部署に配属。</br>年間100百万円規模の原価削減達成より、2017年および2019年に社長賞を受賞。</br>
+              主なプロジェクトは「広域イーサネット切替(PL)」「MicrosoftAzure移管(PM)」他。</p>
+            <ul>
+              <li>仮想化環境(IaaS)におけるサーバ設計、構築</li>
+              <li>Windowsサーバ運用、保守 </li>
+              <li>各種自動化(PowerShell,BAT作成)</li>
+              <li>SAP BASISの構築、運用、保守</li>
+              <li>ネットワーク論理設計、運用、保守(Cisco,YAMAHA)</li>
+              <li>JP1/AJS3のジョブ設計/構築/運用</li>
+              <li>BIG-IPの運用保守</li>
+            </ul>
+            </p>
+            <h5>2019/04 - 2019/12</h5>
+            <p><em>システム基盤保守グループ/リーダー</em></p>
+            <p>2019年に当時最年少でリーダーへ昇進。これまあでの業務に加え、各種管理やAzure活用、コスト削減を推進。</p>
+            <ul>
+              <li>タスクマネジメント
+              <li>工数管理</li>
+              <li>予算管理</li>
+              <li>技術リード</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="history-item">
+            <h4>株式会社サーバーワークス</h4>
+            <h5>2020/01 - 2021/11</h5>
+            <p><em>クラウドインテグレーション部/エンジニア</em></p>
+            <p>クラウド利用による生産性向上・働き方改善に大きく心を動かされ入社。</br>AWS移行案件だけでなくドキュメント執筆やアセスメント案件も主導。</br>
+              全AWS認定を取得した他、AWS Japan社よりAWS Top Engineerとして表彰される。</p>
+            <ul>
+              <li>10社20件を越える、AWSプロジェクト実施</li>
+              <li>クラウド基盤ガイドライン策定（<a href="https://www.nikkei.com/article/DGXLRSP603467_Q1A120C2000000/" target="_blank">日経新聞にて紹介</a>）</li>
+              <li>医療系企業のAWS環境セキュリティアセスメントおよびIaC化推進</li>
+              <li>テクニカルサポートデスク</li>
+            </ul>
+          </div>
+            <h4>ウェルスナビ株式会社</h4>
+            <h5>2021/12 - 2023/04</h5>
+            <p><em>システム基盤グループ/SREエンジニア</em></p>
+            <p>AWS周辺エコシステムも含めた運用保守を行いたいという思いと、「働く世代に豊かさを」というミッションに深く共感し入社。</br>
+              運用保守の傍ら、運用自動化、Kubernetes(EKS)導入、AWSコスト削減などを実施。</p>
+            <ul>
+              <li>サーバ運用、保守(AmazonLinux、WindowsServer他)</li>
+              <li>各種ITインフラ運用・保守</li>
+              <li>AWS環境アーキテクチャ最適化</li>
+              <li>自動化推進</li>
+              <li>コスト改善、環境最適化</li>
+              <li>EKS導入(Kubernetes,BitBucketPipeline,ArgoCD)</li>
+            </ul>
+            <h4>株式会社ジージェン</h4>
+            <h5>2023/05 - 現在</h5>
+            <p><em>Coming Soon...</em></p>
+            <p>Coming Soon...</p>
+            <ul>
+              <li>abc</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End history Section -->
+
+  <!-- ======= Awards Section ======= -->
+  <section id="awards" class="awards">
+    <div class="container">
+      <div class="section-title">
+        <h2>Awards</h2>
+        <p>表彰・実績</p>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="awards-item">
+            <h3>2021年</h3>
+            <ul>
+              <li>2021年 モード2開発基盤ガイドライン策定 (<a href="https://www.nikkei.com/article/DGXLRSP603467_Q1A120C2000000/" target="_blank">日経新聞にて紹介</a>)</li>
+              主にガイドライン執筆、プロジェクトマネジメントを担当する。
+              <li>2021年 2021 APN AWS Top Engineers に選出(<a href="https://aws.amazon.com/jp/blogs/psa/apn-engineers-award-2021/" target="_blank">AWS JAPAN APN ブログ</a>)</li>
+              日本で100人(＋α)の、TOP Engineersとして表彰される。
+              <li>2021年 2021 APN ALL AWS Certifications Engineersに選出(<a href="https://aws.amazon.com/jp/blogs/psa/apn-engineers-award-2021/" target="_blank">AWS JAPAN APN ブログ</a>)</li>
+              日本で91人の、AWS認定を全て取得したエンジニアとして表彰される。
+            </ul>
+
+        <h2>certification</h2>
+        <p>主な資格 </p>
+        <h3>-2015年</h3>
+        <ul>
+          <li>ITパスポート</li>
+          <li>基本情報技術者</li>
+          <li>日本漢字能力検定準2級</li>
+          <li>日商簿記3級</li>
+        </ul>
+        <h3>2016-2020年</h3>
+        <ul>
+          <li>給与計算士検定2級</li>
+          <li>応用情報技術者</li>
+          <li>ネットワークスペシャリスト</li>
+          <li>情報処理安全確保支援士</li>
+          <li>ビジネスプロセス改革エンジニア</li>
+          <li>ITIL Founadtion</li>
+          <li>Microsoft Azure Foundation</li>
+          <li>Microsoft Azure Administrator</li>
+        </ul>
+        <h3>2021-2025年</h3>
+        <ul>
+          <li>AWS Certified Cloud Practitioner</li>
+          <li>AWS Certified Solutions Architect - Associate</li>
+          <li>AWS Certified SysOps Administrator - Associate</li>
+          <li>AWS Certified Developer - Associate</li>
+          <li>AWS Certified Solutions Architect - Professional</li>
+          <li>AWS Certified DevOps Engineer - Professional</li>
+          <li>AWS Certified Advanced Networking - Specialty</li>
+          <li>AWS Certified Alexa Skill Builder - Specialty</li>
+          <li>AWS Certified Database - Specialty</li>
+          <li>AWS Certified Data Analytics - Specialty</li>
+          <li>AWS Certified Machine Learning - Specialty</li>
+          <li>AWS Certified Security - Specialty</li>
+          <li>Certified Kubernetes Administrator</li>
+        </ul> 
+      </div>
+  </section><!-- End Awards Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>連絡先</h2>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>所在地</h3>
+            <p>埼玉県さいたま市</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>各種SNS</S></h3>
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email</h3>
+            <p>mhit3526@gmail.com</p>
+          </div>
+        </div>
+  </section><!-- End Contact Section -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-history-bootstrap-template/ -->
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
